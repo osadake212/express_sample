@@ -1,0 +1,16 @@
+extend layout
+
+block head_css
+  link(rel='stylesheet', href='/css/index.css')
+
+block head_js
+  script(src='/js/index.js')
+
+block content
+  .description Description
+  .index-form_container
+    form(id="index-form", name="signup", method="post", action="/signup")
+      input.name(type="text", name="name", value="", placeholder="Your name")
+      input.email(type="text", name="email", value="", placeholder="Email")
+      input.password(type="password", name="pass", value="", placeholder="Password")
+      button.submit(type="submit") Sign Up

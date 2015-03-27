@@ -1,0 +1,40 @@
+header {
+  position: absolute;
+  background: #000;
+  height: 50px;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 0;
+}
+.header-nav-button {
+  position: absolute;
+  color: #fff;
+  line-height: 50px;
+  right: 0;
+  height: 100%;
+  width: 100px;
+  text-align: center;
+}
+.header-nav-button:hover {
+  background: #808080;
+  opacity: 0.6;
+}
+.container {
+  position: absolute;
+  left: 0;
+  top: 50px;
+  right: 0;
+  bottom: 50px;
+  padding: 0;
+  overflow: auto;
+}
+footer {
+  position: absolute;
+  height: 50px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0;
+  text-align: center;
+}

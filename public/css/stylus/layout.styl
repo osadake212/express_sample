@@ -1,0 +1,43 @@
+header_height = 50px
+footer_height = 50px
+
+header
+  position absolute
+  background black
+  height header_height
+  left 0
+  right 0
+  top 0
+  padding 0
+
+.header-nav-button
+  position absolute
+  color white
+  line-height header_height
+  right 0
+  height 100%
+  width 100px
+  text-align center
+
+  &:hover
+    background grey
+    opacity 0.6
+
+.container
+  position absolute
+  left 0
+  top header_height
+  right 0
+  bottom footer_height
+  padding 0
+  overflow auto
+
+footer
+  position absolute
+  height footer_height
+  bottom 0
+  left 0
+  right 0
+  padding 0
+  text-align center
+

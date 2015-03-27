@@ -1,0 +1,24 @@
+doctype html
+head
+  title #{title} - My Site
+
+  // ----- CSS -----
+  link(rel='stylesheet', href='/css/layout.css')
+  block head_css
+
+  // ----- JS libs -----
+  script(src='/libs/js/jquery-1.11.2.min.js')
+
+  // ----- JS -----
+  script(src='/js/layout.js')
+  block head_js
+
+body
+  block header
+    header
+      .header-nav-button
+.container
+  block content
+footer
+  hr
+  p Running on node with Express, Jade and  Stylus!

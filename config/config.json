@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "express",
+    "password": "express",
+    "database": "my_site_db",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "express",
+    "password": "express",
+    "database": "my_site_db",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "express",
+    "password": "express",
+    "database": "my_site_db",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
